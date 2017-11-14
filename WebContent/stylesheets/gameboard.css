@@ -1,0 +1,61 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
+	color: #13db0b;
+	font-size: 20px;
+	background-image: url("../images/background.jpg");
+}
+
+
+
+
+h2 {
+	font-size: 80px;
+}
+#earnings {
+	float: left;
+	font-size: 60px;
+	padding-bottom: 50px;
+}
+a {
+	text-decoration: none;
+	color: black;
+	outline: 0;
+}
+
+a:hover {
+	color: #c2ffc0;
+	outline: 0;
+}
+
+input[type=submit] {
+	color: #13db0b;
+	width: 300px;
+	height: 50px;
+	background-image: url("../images/background.jpg");
+	border: 3px solid #13db0b;
+	border-radius: 40px;
+	font-size: 30px;
+	font-family: 'Julius Sans One', sans-serif;
+	outline: 0;
+}
+input[type=submit]:hover {
+	color: #c2ffc0;
+	cursor: pointer;
+	background-color: white;
+	outline: 0;
+}
+input[type=submit][disabled] {
+   color: red;
+   border-color: red;
+   cursor: crosshair;
+   outline: 0;
+}
+
+input[type=submit]:active {
+	outline: 0;
+}
+
+

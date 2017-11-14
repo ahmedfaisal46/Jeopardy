@@ -1,0 +1,66 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
+	color: #13db0b;
+	font-size: 50px;
+	background-image: url("../images/background.jpg");
+}
+
+
+
+#jeoGif {
+	border-radius: 20px;
+	height: 100px;
+	margin-bottom: -30px;
+	
+	
+	
+}
+
+h2 {
+	font-size: 120px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	outline: 0;
+}
+
+a:hover {
+	color: #c2ffc0;
+	outline: 0;
+}
+
+input[type=submit] {
+	color: #13db0b;
+	width: 400px;
+	height: 50px;
+	background-image: url("../images/background.jpg");
+	border: 3px solid #13db0b;
+	border-radius: 40px;
+	font-size: 30px;
+	font-family: 'Julius Sans One', sans-serif;
+}
+input[type=submit]:hover {
+	color: #c2ffc0;
+	cursor: pointer;
+	background-color: white;
+}
+
+input[type=text] {
+	color: #13db0b;
+	width: 400px;
+	height: 50px;
+	font-size: 30px;
+	font-family: 'Julius Sans One', sans-serif;
+	border-radius: 5px; 
+}
+
+#error {
+	font-size: 20px;
+	font-family: 'Julius Sans One', sans-serif;
+	color: red;
+}
